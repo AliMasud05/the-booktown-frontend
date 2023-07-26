@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import MainLayout from './layout/MainLayout';
 function App() {
   
@@ -5,6 +6,7 @@ function App() {
   return (
     <div>      
       <MainLayout />
+     
     </div>
   );
 }

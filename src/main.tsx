@@ -7,8 +7,8 @@ import routes from './routes/routes'
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Provider store={}>
+   
       <RouterProvider router={routes} />
-    </Provider>
+  
   </React.StrictMode>
 );

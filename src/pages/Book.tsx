@@ -8,6 +8,7 @@ export type IBook = {
 };
 
 export const Book = () => {
+   const { data, isLoading, error } = useGetProductsQuery(undefined);
 
   const bookData = [
     {

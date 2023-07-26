@@ -1,13 +1,12 @@
-
-import Cart from './components/Cart';
+import MainLayout from './layout/MainLayout';
 function App() {
   
 
   return (
-    <>
-     <Cart></Cart>
-    </>
-  )
+    <div>      
+      <MainLayout />
+    </div>
+  );
 }
 
 export default App
